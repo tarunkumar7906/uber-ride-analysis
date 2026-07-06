@@ -20,7 +20,7 @@ This project performs an end-to-end Exploratory Data Analysis on an NCR (Delhi) 
 | 🔢 NumPy | Numeric operations and coercion of messy columns |
 | 📊 Matplotlib | Static charts — line, bar, and heatmap visuals |
 | 🎨 Seaborn | Styled countplots and heatmaps |
-| 📈 Plotly | Interactive histogram and scatter plot for ride distance analysis |
+| 🎨 Seaborn | Histogram for ride distance distribution, scatter for distance vs booking value, heatmap for day vs hour demand |
 | 📓 Jupyter Notebook | Writing and running the full analysis interactively |
 | 📁 File Format | `.ipynb` for the notebook, `.csv` for the raw dataset |
 
@@ -231,8 +231,8 @@ uber-ride-analysis/
 - Writing a reusable `clean_data()` function instead of cleaning inline — keeps the notebook organized
 - Engineering time features from DateTime — Hour, DayofWeek, Month, Weekends flag
 - Using `pd.to_numeric(errors='coerce')` to handle messy numeric columns without breaking the pipeline
-- Choosing between Matplotlib, Seaborn, and Plotly depending on what the chart needs
-- Using Plotly for interactive scatter and histogram when static charts are not enough
+- Choosing between Matplotlib and Seaborn depending on what the chart needs
+- Using Seaborn for statistical charts like histogram, scatter, and heatmap where styling matters
 - Thinking about cancellation rates as a business metric, not just a data cleaning step
 
 ---
