@@ -214,13 +214,6 @@ Scatter plot colored by vehicle type to check whether longer rides consistently 
 
 7. **Address the No Driver Found problem** — 7% of bookings failing because no driver was available means supply is not meeting demand in certain locations or hours.
 
----
-
-## 📸 Notebook Preview
-
-*(Add screenshots of your key charts here once uploaded)*
-
----
 
 ## 📂 Project Structure
 
